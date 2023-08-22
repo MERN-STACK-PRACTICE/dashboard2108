@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Management Dashboard</title>
+    <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+      </style>
+      <link rel="stylesheet" href="./assets/css/style.css">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <style type="text/css">
+        .material-icons.md-48 { font-size: 48px; }
+        </style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="dashboard">
+    <div class="navbar">
+        <div class="dash-head">
+            <i class="material-icons md-48">dashboard</i>
+            <h1>Dashboard</h1>
+        </div>
+
+        <section>
+            <ul class="icon-list">
+                <li><i class="fas fa-home"></i> Home</li>
+                <li><i class="fas fa-user"></i> Profile</li>
+                <li><i class="fas fa-envelope"></i> Messages</li>
+                <li><i class="fas fa-history"></i> History</li>
+                <li><i class="fas fa-tasks"></i> Tasks</li>
+                <li><i class="fas fa-comments"></i> Communications</li>
+            </ul>
+        </section>
+        <section>
+            <ul class="icon-list">
+                <li><i class="fas fa-cog"></i> Settings</li>
+                <li><i class="fas fa-question-circle"></i> Support</li>
+                <li><i class="fas fa-lock"></i> Privacy</li>
+            </ul>
+        </section>
+    </div>
+    <div class="main">
+        <div class="header">
+            <div class="first-sec">
+            <div class="search">
+
+                <form>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                      </svg>
+                    <input type="text" id="searchInput" placeholder="Search...">
+                </form>
+            </div>
+            <div class="view-profile">
+                <i class="icon fas fa-bell"></i> 
+                <img src="./assets/img/profile-icon.png" >
+                <p>Sethu Ravichandran</p>
+            </div>
+            </div>
+            <div class="second-sec">
+            <div class="profile">
+                <img src="./assets/img/profile-icon.png">
+                <div>
+                <h5>Hi there,</h5>
+                <p class="main-text">Sethu Ravichandran (@sethu-che)</p>
+            </div>
+            </div>
+            <div class="buttons">
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
+            </div>
+            </div>
+        </div>
+        <div class="project-dash">
+            <div class="sec-one">
+                <p class="project-text">Your Projects</p>
+                <div class="app-row">
+                    <div class="app-container">
+                        <p class="main-content">Super Cool Project</p>
+                        <p class="container-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. In tempore voluptate aliquid minima vel, at magni, accusamus odit ex ipsum, dolorum temporibus necessitatibus eum ad. Quisquam provident inventore aspernatur ex?</p>
+                    <div class="icons">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-code-branch"></i>
+                    </div>
+                    </div>
+                    <div class="app-container">
+                        <p class="main-content">Less Cool project</p>
+                        <p class="container-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. In tempore voluptate aliquid minima vel, at magni, accusamus odit ex ipsum, dolorum temporibus necessitatibus eum ad. Quisquam provident inventore aspernatur ex?</p>
+                    <div class="icons">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-code-branch"></i>
+                    </div>
+                    </div>
+                </div>
+ 
+                <div class="app-row">
+                    <div class="app-container">
+                        <p class="main-content">Impossible App</p>
+                        <p class="container-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. In tempore voluptate aliquid minima vel, at magni, accusamus odit ex ipsum, dolorum temporibus necessitatibus eum ad. Quisquam provident inventore aspernatur ex?</p>
+                    <div class="icons">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-code-branch"></i>
+                    </div>
+                    </div>
+                    <div class="app-container">
+                        <p class="main-content">Easy Peasy App</p>
+                        <p class="container-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. In tempore voluptate aliquid minima vel, at magni, accusamus odit ex ipsum, dolorum temporibus necessitatibus eum ad. Quisquam provident inventore aspernatur ex?</p>
+                    <div class="icons">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-code-branch"></i>
+                    </div>
+                    </div>
+                </div>
+                <div class="app-row">
+                    <div class="app-container">
+                        <p class="main-content">Ad Blocker</p>
+                        <p class="container-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. In tempore voluptate aliquid minima vel, at magni, accusamus odit ex ipsum, dolorum temporibus necessitatibus eum ad. Quisquam provident inventore aspernatur ex?</p>
+                    <div class="icons">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-code-branch"></i>
+                    </div>
+                    </div>
+                    <div class="app-container">
+                        <p class="main-content">Money Making App</p>
+                        <p class="container-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. In tempore voluptate aliquid minima vel, at magni, accusamus odit ex ipsum, dolorum temporibus necessitatibus eum ad. Quisquam provident inventore aspernatur ex?</p>
+                    <div class="icons">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-code-branch"></i>
+                    </div>
+                    </div>
+            </div>
+        </div>
+        <div class="sec-two">
+        <p class="project-text">Announcements</p>
+            <div class="announcements">
+                
+                <h6 class="container-content">Site Maintainence</h6>
+                <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid similique, repellendus voluptatum ad labore officia corporis veritatis, vel, aut minus accusantium illum. Eaque nemo, ipsum odit sed asperiores optio porro.</p>
+                <div class="line"></div>
+                <h6 class="container-content">Community Share Day</h6>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum sed molestias, qui veniam, facilis porro minima laboriosam illo esse nulla similique eum non culpa nobis quos a ut nesciunt cum.</p>
+                <div class="line"></div>
+                <h6  class="container-content">Updated Privacy Policy</h6>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum illum quis perferendis exercitationem numquam vero ab porro maiores voluptates expedita! Saepe tempore ipsam culpa dolores qui, magni voluptates laudantium aliquid!</p>
+            
+            </div>
+            <p class="people-text">People</p>
+            <div class="people anouncements">
+                <div class="img-container">
+                    <img src="./assets/img/carlo.png">
+                    <p>@Carlo</p>
+                </div>
+                <div class="img-container">
+                    <img src="./assets/img/jenny.png">
+                    <p>@Jenny</p>
+                </div>
+                <div class="img-container">
+                    <img src="./assets/img/jaswanth.png">
+                    <p>@jaswanth</p>
+                </div>
+                
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+</html>
